@@ -337,6 +337,11 @@ Terminating a running :workflow_execution: will record a WorkflowExecutionTermin
 Canceling a running :workflow_execution: will record a WorkflowExecutionCancelRequested :event: in the history, and a new :decision_task: will be scheduled. The :workflow: has a chance to do some clean up work after cancellation.
 
 #### Signal, cancel, terminate workflows as a batch job
+
+:::tip New: Batch Actions UI
+You can now run and manage batch jobs directly from Cadence Web, no CLI required. See [Batch Actions UI: Manage Thousands of Workflows at Once](/blog/2026/07/07/2026-07-07-batch-actions-ui/batch-actions-ui) to learn more.
+:::
+
 Batch job is based on List Workflow Query(**--query**). It supports :signal:, cancel and terminate as batch job type.
 For terminating :workflow:workflows: as batch job, it will terminate the children recursively.
 
