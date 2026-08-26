@@ -22,6 +22,15 @@ The central abstraction in Cadence is a **durable execution function**: ordinary
 
 More precisely, Cadence calls this a **fault-oblivious stateful :workflow:**. The state of the :workflow: code, including local variables and threads it creates, is immune to process and Cadence service failures. This is a very powerful concept as it encapsulates state, processing threads, durable timers and :event: handlers.
 
+## Samples
+
+Runnable workflow samples:
+
+| Sample | Description | Code |
+|--------|-------------|------|
+| **Hello World** | One workflow invoking a single activity | [Go](https://github.com/cadence-workflow/cadence-samples/tree/master/new_samples/hello_world) · [Java](https://github.com/cadence-workflow/cadence-java-samples/blob/master/src/main/java/com/uber/cadence/samples/hello/HelloActivity.java) |
+| **Sequential activities** | Several activities chained, passing results between them | [Go](https://github.com/cadence-workflow/cadence-samples/tree/master/new_samples/greetings) · [Java](https://github.com/cadence-workflow/cadence-java-samples/tree/master/src/main/java/com/uber/cadence/samples/calculation) |
+
 ## Example
 
 Let's look at a use case. A customer signs up for an application with a trial period. After the period, if the customer has not cancelled, he should be charged once a month for the renewal. The customer has to be notified by email about the charges and should be able to cancel the subscription at any time.
