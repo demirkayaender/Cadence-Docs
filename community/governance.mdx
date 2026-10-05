@@ -104,18 +104,19 @@ An official role belongs to the person.
 A maintainer or TSC member leaves the role in any of these cases:
 
   * They step down in writing or in public. The TSC records the step-down.
-  * A maintainer leaves the Cadence team at a company that funds their Cadence work and does not notify the TSC within two weeks that they will keep contributing.
+  * A maintainer leaves the Cadence team at a company that funds their Cadence work. The TSC may end the maintainer role at once. The person has two weeks to notify the TSC that they will keep contributing. That notice reverses the removal.
+  * A maintainer is inactive for six months. Inactivity means no pull requests, reviews, or issue work. This inactivity rule does not apply to TSC members.
   * The TSC votes to end the role. The TSC can vote any maintainer out when it considers that necessary for the project, including for community health, collaboration, quality, or another reason recorded with the vote. The TSC can likewise vote a member out of the committee.
 
-Leaving a funded Cadence team ends a maintainer role unless the person notifies the TSC within two weeks that they will keep contributing. The TSC does not have to wait those two weeks to end the role. If the person notifies within two weeks, maintainership is reinstated. They open a GitHub issue in [cadence](https://github.com/cadence-workflow/cadence) or [TSC-Discussions](https://github.com/cadence-workflow/TSC-Discussions). No confirmation is required for that notification. A maintainer who lost the role within the last six months can also ask to be voted in again.
+Leaving a funded Cadence team can end the maintainer role as soon as the TSC records it. That two-week window is for the person to stay a maintainer, not a waiting period before the TSC can act. If they notify within two weeks, the removal is reversed and maintainership is reinstated. They open a GitHub issue in [cadence](https://github.com/cadence-workflow/cadence) or [TSC-Discussions](https://github.com/cadence-workflow/TSC-Discussions). No confirmation is required for that notification.
 
 A TSC member who leaves a funded Cadence team keeps the TSC seat until the TSC votes through an issue or a pull request.
 
-Six months of inactivity lets the TSC end a maintainer role. Inactivity means no pull requests, reviews, or issue work. This inactivity rule does not apply to TSC members. The change is a [MAINTAINERS.md](https://github.com/cadence-workflow/cadence/blob/master/MAINTAINERS.md) update with two TSC members involved: a TSC member opens the pull request and another TSC member approves it, or someone else opens the pull request and two or more TSC members approve it.
+Six months of inactivity lets the TSC end a maintainer role. The change is a [MAINTAINERS.md](https://github.com/cadence-workflow/cadence/blob/master/MAINTAINERS.md) update with two TSC members involved: a TSC member opens the pull request and another TSC member approves it, or someone else opens the pull request and two or more TSC members approve it.
 
 A vote to end a role uses the recorded vote, or an issue or pull request for a TSC member who left a funded team. The TSC states the reason in the TSC repository. Voting a person out of the TSC leaves their maintainer rights in place unless that vote also ends those rights.
 
-After the role ends, the TSC may list the person as emeritus on the [team page](/community/team). Emeritus recognizes past work. It does not include merge rights or a vote. Returning to an active role follows the eligibility rules for that role and a new TSC vote, except for a maintainer reinstated by a notice within two weeks, or a maintainer who lost the role within the last six months and asks to be voted in again.
+After the role ends, the TSC may list the person as emeritus on the [team page](/community/team). Emeritus recognizes past work. It does not include merge rights or a vote. Returning to an active role follows the eligibility rules for that role and a new TSC vote, except for a maintainer reinstated by a notice within two weeks. Any maintainer who lost the role within the last six months can ask to be voted in again.
 
 ---
 
@@ -149,15 +150,17 @@ Each election should be posted in a TSC dedicated GitHub repo. Each member is re
 
 Voting has to be recorded and should clearly show a vote was cast from the voter's account (email or GitHub or another account officially linked to the voter). A vote could be "in favor", "not in favor", or "abstain". When the vote is a pull request, a TSC member's approval counts as "in favor". Requesting changes counts as "not in favor".
 
-Each company counts at most two TSC votes. The majority is calculated from that company-capped total, not from headcount.
+Each company counts at most two TSC votes. The majority is calculated from that company-capped total, not from headcount. Count each company's ballots as follows:
 
-If members from the same company vote both in favor and not in favor, that company counts as one vote in favor and one vote not in favor, regardless of how many voted each way.
+  * If there is at least one vote in favor and at least one not in favor, count one in favor and one not in favor. Ignore abstains from that company.
+  * If there are votes on only one side, in favor or not in favor, plus abstains, count one vote on that side and one abstain.
+  * If there are only abstains, only in favor or only not in favor, count up to two of those votes.
 
-If a company already has two or more votes, abstain votes from that company are ignored. If it does not, an abstain still counts toward the majority needed to accept the outcome.
+Abstains do not choose a side. They count toward whether the TSC has received enough votes to decide. The outcome is still the majority of counted "in favor" and "not in favor" votes.
 
 In case a response wasn't received from all the members within two weeks, all the pending votes, with the 2-week notice period already expired, will be cast by the end of the first day (Pacific Time) of the coming month. This way, every member can expect a voting might be happening and they can find voting issues in the dedicated repo. Decisions will be made based on received votes at that time. 
 
-At any time after the initial notification, if more than half of the company-capped votes are “favor” or “not in favor”, a decision can be made without waiting for other members, since their vote will have no effect.
+At any time after the initial notification, if more than half of the company-capped votes have been received, including counted abstains, a decision can be made without waiting for other members, since their vote will have no effect.
 
 Otherwise, voting results are decided based on the counted "favor" and "not in favor" votes after the company cap. Whichever vote has a majority will be the decision. If no majority is reached, TSC can continue with a re-election or status quo is maintained (i.e., no change).
 
