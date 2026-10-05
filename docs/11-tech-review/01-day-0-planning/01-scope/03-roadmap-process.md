@@ -23,7 +23,7 @@ The 2027 proposal is the current example. It draws on production usage, meetings
 
 The TSC votes on the proposal with the [recorded vote](/community/governance#governing-model--voting-process) in the governance document: two weeks' notice, a vote of "in favor", "not in favor", or "abstain", and a public record of the result. An approved proposal is the scope for that year.
 
-A mid-year soft refresh adjusts emphasis inside that scope. Changing the scope, or accepting a project outside the annual cycle, is still a TSC decision. An off-cycle project is taken when its importance and funding support the work. A recorded vote is not required when a TSC member, a maintainer, or a company volunteers for the work, a TSC member accepts that offer in public, and no one pushes back. If someone pushes back, the TSC uses the recorded vote.
+A mid-year soft refresh adjusts emphasis inside that scope. Changing the year's scope uses the recorded vote. Accepting a project, including an off-cycle project whose importance and funding support the work, uses the recorded vote or the vote-free path in [governance](/community/governance#project-roadmap). A TSC member who proposes a project and volunteers for it accepts it without another TSC member's approval. A maintainer or a company that volunteers needs at least one TSC member to accept that offer in writing or in public. There is no pushback window before acceptance. After the fact, a TSC member can push back and open the acceptance to discussion and a recorded vote. That vote can reverse the acceptance, including progress already made.
 
 Scope also has to be maintainable. Governance asks the project to avoid unfunded work, half-finished projects, and launches that nobody owns. The TSC names an owner after it accepts a project.
 
@@ -37,7 +37,7 @@ An idea is raised on GitHub. The [2027 call for project ideas](https://github.co
 
 A conversation in [CNCF Slack `#cadence-users`](https://inviter.co/cncf) or in an open community meeting becomes an idea when a maintainer records it on GitHub. Community meetings are the planning discussions described in governance.
 
-Maintainers and other community members can comment on an idea, volunteer for it, and vote. That vote shows popularity and interest. The TSC uses it as input. It accepts a project with its recorded vote, or without a vote when a TSC member, a maintainer, or a company volunteers for the work, a TSC member accepts that offer in public, and no one pushes back.
+Maintainers and other community members can comment on an idea, volunteer for it, and vote. That vote shows popularity and interest. The TSC uses it as input. It accepts a project with its recorded vote, or on the vote-free path above.
 
 People may volunteer before a project is accepted. Volunteering shows interest, and a volunteer can be the person or company who takes the work. The TSC names the owner after acceptance. A selected project stays inside the approved scope, or it is an off-cycle project the TSC has accepted for its importance and funding.
 
@@ -59,7 +59,7 @@ The ladder in [governance](/community/governance#official-roles) is:
 
 The TSC grants maintainer and TSC membership by vote after the eligibility requirements are met. Candidates use their real names, share a contact email, and join at least one community meeting before that vote. The current list is [MAINTAINERS.md](https://github.com/cadence-workflow/cadence/blob/master/MAINTAINERS.md). Profiles on [Team](/community/team) can be out of date.
 
-A role ends when the person steps down, is inactive for six months, leaves the Cadence team at a company that funds their work and does not confirm that they will keep contributing, or is removed by a TSC vote. The TSC can end a maintainer's rights when it considers that necessary, including for community health, collaboration, or quality, and it can vote a TSC member out of the committee. The full rule, including emeritus status, is [Leaving an official role](/community/governance#leaving-an-official-role).
+How a role ends, including funded-team notice, inactivity, votes, and emeritus status, is in [Leaving an official role](/community/governance#leaving-an-official-role).
 
 ## Related documentation
 
